@@ -1,0 +1,68 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#navbarNavAltMarkup {
+  justify-content: space-between;
+  margin-right: 260px;
+}
+
+#home,
+#user,
+#product,
+#add-user,
+#add-prodcuct {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#home:hover {
+  color: white;
+  background-color: rgb(65, 65, 190);
+}
+
+#user:hover {
+  color: white;
+  background-color: rgb(65, 65, 190);
+}
+
+#product:hover {
+  color: white;
+  background-color: rgb(65, 65, 190);
+}
+
+#add-user:hover {
+  color: white;
+  background-color: rgb(65, 65, 190);
+}
+
+#add-prodcuct:hover {
+  color: white;
+  background-color: rgb(65, 65, 190);
+}
+
+.rotate {
+  width: 100px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#position {
+  text-align: center;
+  margin-top: 100px;
+}
+
+th {
+  font-size: larger;
+}
